@@ -22,3 +22,7 @@ function prependDriver(name){
   prependDriver.unshift("Arnold");
   return prependDriver;
 }
+function removeLastDriver(){
+  let removeLastDriver=drivers.slice();
+  removeLastDriver.pop("")
+}
